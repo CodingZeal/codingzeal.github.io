@@ -190,9 +190,11 @@
   .mobile-only {
     display: block;
   }
-
+  .github-logo {
+    width: 90px;
+  }
   .hero-section-zeal-logo{
-    width: 170px;
+    width: 140px;
   }
   .react-generator-image{
     display: none;
@@ -201,12 +203,14 @@
     display: none;
   }
   .react-generator-image-mobile{
+    width: 160px;
     display: inline;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .cellulose-logo-image-mobile{
+    width: 130px;
     display: inline;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
   .footer-section-type {
     text-align: center;
