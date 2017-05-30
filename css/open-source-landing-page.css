@@ -1,3 +1,7 @@
+.mobile-only {
+  display: none;
+}
+
 .footer-section-type {
   position: static;
   display: inline-block;
@@ -161,14 +165,9 @@
 
 .learn-more-banner {
   padding-top: 15px;
-  float: left;
-  text-align: right;
 }
 
 .learn-more-banner-cellulose {
-  float: left;
-  clear: none;
-  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -188,33 +187,32 @@
 }
 
 @media (max-width: 767px) {
-  .cellulose-section-content-div {
-    padding-left: 40px;
-    text-align: left;
+  .mobile-only {
+    display: block;
   }
-  .cellulose-section-column-1 {
-    text-align: left;
-  }
-  .react-generator-section-column-2 {
-    margin-top: 20px;
-  }
-  .react-generator-section-content-div {
-    text-align: left;
-  }
-  .learn-more-banner {
-    text-align: center;
-  }
-  .learn-more-banner-cellulose {
-    float: none;
-    text-align: left;
-  }
-}
 
-@media (max-width: 479px) {
+  .hero-section-zeal-logo{
+    width: 170px;
+  }
+  .react-generator-image{
+    display: none;
+  }
+  .cellulose-logo-image{
+    display: none;
+  }
+  .react-generator-image-mobile{
+    display: inline;
+    margin-bottom: 20px;
+  }
+  .cellulose-logo-image-mobile{
+    display: inline;
+    margin-bottom: 20px;
+  }
   .footer-section-type {
     text-align: center;
   }
   .cellulose-section-content-header {
+    font-size: 50px;
     text-align: center;
   }
   .cellulose-section-content-div {
@@ -225,6 +223,7 @@
     text-align: center;
   }
   .react-generator-heading {
+    font-size: 50px;
     text-align: center;
   }
   .react-generator-type {
@@ -235,16 +234,14 @@
     text-align: center;
   }
   .hero-section-heading-whiteboard-type {
+    font-size: 40px;
     line-height: 100px;
   }
   .hero-section-heading-type {
-    margin-top: 0px;
+      font-size: 40px;
+      margin-top: 0px;
   }
-  .learn-more-banner {
-    float: none;
-    text-align: center;
-  }
-}
+
 
 @font-face {
   font-family: 'Whiteboard webfont (1)';
