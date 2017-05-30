@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'Whiteboard webfont (1)';
+  src: url('../fonts/whiteboard-webfont-1.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandongrotesque';
+  src: url('../fonts/BrandonGrotesque-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
 .mobile-only {
   display: none;
 }
@@ -96,6 +109,7 @@
 }
 
 .cellulose-section-content-type {
+  font-family: Brandongrotesque, sans-serif;
   display: block;
   width: 90%;
   margin-top: 30px;
@@ -245,17 +259,3 @@
       font-size: 40px;
       margin-top: 0px;
   }
-
-
-@font-face {
-  font-family: 'Whiteboard webfont (1)';
-  src: url('../fonts/whiteboard-webfont-1.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandongrotesque';
-  src: url('../fonts/BrandonGrotesque-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
