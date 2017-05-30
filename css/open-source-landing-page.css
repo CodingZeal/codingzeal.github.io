@@ -1,3 +1,20 @@
+@font-face {
+  font-family: 'Whiteboard webfont (1)';
+  src: url('../fonts/whiteboard-webfont-1.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Brandongrotesque';
+  src: url('../fonts/BrandonGrotesque-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mobile-only {
+  display: none;
+}
+
 .footer-section-type {
   position: static;
   display: inline-block;
@@ -92,6 +109,7 @@
 }
 
 .cellulose-section-content-type {
+  font-family: Brandongrotesque, sans-serif;
   display: block;
   width: 90%;
   margin-top: 30px;
@@ -161,14 +179,9 @@
 
 .learn-more-banner {
   padding-top: 15px;
-  float: left;
-  text-align: right;
 }
 
 .learn-more-banner-cellulose {
-  float: left;
-  clear: none;
-  text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -188,33 +201,36 @@
 }
 
 @media (max-width: 767px) {
-  .cellulose-section-content-div {
-    padding-left: 40px;
-    text-align: left;
+  .mobile-only {
+    display: block;
   }
-  .cellulose-section-column-1 {
-    text-align: left;
+  .github-logo {
+    width: 90px;
   }
-  .react-generator-section-column-2 {
-    margin-top: 20px;
+  .hero-section-zeal-logo{
+    width: 140px;
   }
-  .react-generator-section-content-div {
-    text-align: left;
+  .react-generator-image{
+    display: none;
   }
-  .learn-more-banner {
-    text-align: center;
+  .cellulose-logo-image{
+    display: none;
   }
-  .learn-more-banner-cellulose {
-    float: none;
-    text-align: left;
+  .react-generator-image-mobile{
+    width: 160px;
+    display: inline;
+    margin-bottom: 40px;
   }
-}
-
-@media (max-width: 479px) {
+  .cellulose-logo-image-mobile{
+    width: 130px;
+    display: inline;
+    margin-bottom: 30px;
+  }
   .footer-section-type {
     text-align: center;
   }
   .cellulose-section-content-header {
+    font-size: 50px;
     text-align: center;
   }
   .cellulose-section-content-div {
@@ -225,6 +241,7 @@
     text-align: center;
   }
   .react-generator-heading {
+    font-size: 50px;
     text-align: center;
   }
   .react-generator-type {
@@ -235,26 +252,10 @@
     text-align: center;
   }
   .hero-section-heading-whiteboard-type {
+    font-size: 40px;
     line-height: 100px;
   }
   .hero-section-heading-type {
-    margin-top: 0px;
+      font-size: 40px;
+      margin-top: 0px;
   }
-  .learn-more-banner {
-    float: none;
-    text-align: center;
-  }
-}
-
-@font-face {
-  font-family: 'Whiteboard webfont (1)';
-  src: url('../fonts/whiteboard-webfont-1.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Brandongrotesque';
-  src: url('../fonts/BrandonGrotesque-Regular.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
