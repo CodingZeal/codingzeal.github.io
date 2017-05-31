@@ -167,7 +167,7 @@
 }
 
 .hero-section-heading-type {
-  margin-top: 70px;
+  margin-top: 60px;
   font-family: Brandongrotesque, sans-serif;
   color: #fff;
   font-size: 100px;
@@ -178,6 +178,7 @@
 }
 
 .learn-more-banner {
+  float: left;
   padding-top: 15px;
 }
 
@@ -201,6 +202,10 @@
 }
 
 @media (max-width: 767px) {
+  .learn-more-banner {
+    float: none;
+    padding-top: 15px;
+  }
   .mobile-only {
     display: block;
   }
@@ -252,10 +257,11 @@
     text-align: center;
   }
   .hero-section-heading-whiteboard-type {
+    margin-top: 30px;
     font-size: 40px;
     line-height: 100px;
   }
   .hero-section-heading-type {
       font-size: 40px;
-      margin-top: 0px;
+      margin-top: auto;
   }
