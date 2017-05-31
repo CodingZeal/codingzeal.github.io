@@ -160,7 +160,7 @@
 }
 
 .hero-section-heading-whiteboard-type {
-  margin-top: 90px;
+  margin-top: 110px;
   font-family: 'Whiteboard webfont (1)', sans-serif;
   color: #fff;
   font-size: 100px;
@@ -174,15 +174,12 @@
 }
 
 .github-logo-link {
-  margin-top: 30px;
+    margin-top: 80px;
 }
 
 .learn-more-banner {
   float: left;
   padding-top: 15px;
-}
-
-.learn-more-banner-cellulose {
 }
 
 @media (max-width: 991px) {
@@ -202,6 +199,9 @@
 }
 
 @media (max-width: 767px) {
+  .github-logo-link {
+      margin-top: 30px;
+  }
   .learn-more-banner {
     float: none;
     padding-top: 15px;
