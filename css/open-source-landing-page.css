@@ -160,7 +160,7 @@
 }
 
 .hero-section-heading-whiteboard-type {
-  margin-top: 110px;
+  margin-top: 140px;
   font-family: 'Whiteboard webfont (1)', sans-serif;
   color: #fff;
   font-size: 100px;
@@ -174,7 +174,7 @@
 }
 
 .github-logo-link {
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 .learn-more-banner {
@@ -199,9 +199,6 @@
 }
 
 @media (max-width: 767px) {
-  .github-logo-link {
-      margin-top: 30px;
-  }
   .learn-more-banner {
     float: none;
     padding-top: 15px;
