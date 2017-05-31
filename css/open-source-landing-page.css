@@ -199,6 +199,9 @@
 }
 
 @media (max-width: 767px) {
+  .github-logo-link {
+      margin-top: 30px;
+  }
   .learn-more-banner {
     float: none;
     padding-top: 15px;
@@ -260,5 +263,5 @@
   }
   .hero-section-heading-type {
       font-size: 40px;
-      margin-top: auto;
+      margin-top: -15px;
   }
