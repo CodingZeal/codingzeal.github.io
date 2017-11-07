@@ -11,6 +11,10 @@
   font-style: normal;
 }
 
+.link-interestings-content.highlight:hover{
+  color: black;
+}
+
 .mobile-only {
   display: none;
 }
@@ -22,7 +26,7 @@
   margin-bottom: 50px;
   color: #fff;
   font-size: 18px;
-  text-align: left;
+  text-align: center;
 }
 
 .hero-section {
@@ -212,6 +216,15 @@
   margin-top: 20px;
   color: #fff;
   font-size: 33px;
+}
+
+.interestings-link-type {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.5em;
 }
 
 .other-os-section-row {
