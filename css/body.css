@@ -41,7 +41,7 @@ body {
   margin: 0;
   min-height: 100%;
   background-color: #fff;
-  font-family: Arial, sans-serif;
+  font-family: Brandongrotesque, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
@@ -1577,6 +1577,41 @@ textarea.w-select {
 .w-nav[data-collapse="all"] .w-nav-button {
   display: block;
 }
+
+.highlight:hover! {
+  color: white;
+}
+.content-type {
+  font-size: 20px;
+}
+.cellulose-section-content-type {
+  font-size: 20px;
+}
+.react-generator-type{
+  font-size: 20px;
+}
+
+.other-os-section-type{
+  font-size: 30px;
+}
+
+.column{
+  padding-left: 3%;
+  float: left;
+  width: 47%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column-2:after{
+      display: table;
+      clear: both;
+}
+
+section-image-container
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;

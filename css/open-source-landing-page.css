@@ -218,13 +218,65 @@
   font-size: 33px;
 }
 
-.interestings-link-type {
+.advertisement-section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+  display: flex;
+}
+
+.advertisement {
+  display: flex;
+  padding: 0 20px;
+  border-right: 1px solid #CFCFCF;
+}
+
+.advertisement:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+@media (max-width: 720px) {
+  .advertisement-section {
+    flex-direction: column;
+  }
+
+  .advertisement {
+    padding: 30px 20px;
+    border-bottom: 1px solid #CFCFCF;
+    border-right: none;
+  }
+
+  .advertisement:first-child {
+    padding-top: 0;
+  }
+}
+
+.advertisement-img {
+  align-self: baseline;
+  height: auto;
+  flex-grow: 0;
+  flex-basis: 130px;
+
+}
+
+.advertisement-content {
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.advertisement-heading {
+  font-size: 28px;
+  line-height: 1.2;
+  color: #F43D22;
+}
+
+.advertisement-description {
   display: block;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  color: #fff;
-  font-size: 30px;
-  line-height: 1.5em;
+  margin-top: 10px;
+  color: #6C6C6C;
+  font-size: 16px;
+  line-height: 1.2em;
 }
 
 .other-os-section-row {
@@ -243,6 +295,10 @@
 
 .other-os-section-content-container {
   margin-left: 40px;
+}
+
+.zeal-interestings-podcast-logo{
+padding-bottom: 5px;
 }
 
 @media (max-width: 991px) {
@@ -368,3 +424,4 @@
   .interestings-link-type {
     font-size: 20px;
   }
+}
